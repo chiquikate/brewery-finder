@@ -1,0 +1,36 @@
+body {
+  background-color: #a58e74;
+}
+
+.search-container {
+  width: 360px;
+  margin: 50px auto;
+
+  background-color: #e09132;
+}
+
+.user-input,
+.searchBtn {
+  width: 300px;
+  margin: 30px 30px 10px 30px;
+  padding: 5px;
+
+  background-color: #ffefcd;
+  font-size: 16px;
+}
+
+.searchBtn {
+  margin-top: 0px;
+  margin-left: 105px;
+  width: 150px;
+}
+
+.brewery-list {
+  background-color: #e09132;
+
+  margin: auto;
+  width: 360px;
+  height: 50px;
+  position: relative;
+  top: -20px;
+}

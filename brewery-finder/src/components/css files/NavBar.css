@@ -1,0 +1,26 @@
+.navbar-custom {
+  background-color: #424530;
+}
+
+.navlist-container {
+  text-align: center;
+  margin: auto;
+  gap: 10px;
+}
+
+.nav-button {
+  color: #ffefcd;
+  margin-bottom: 20px;
+
+  font-size: 20px;
+}
+
+.nav-button:hover {
+  color: #e09132;
+  font-size: 22px;
+  transition: 1000ms;
+}
+
+.nav-button:active {
+  color: #e09132;
+}
