@@ -1,11 +1,7 @@
 import "./css files/Home.css";
 
-import { useState, useCallback } from "react";
-import { GoogleMap, useJsApiLoader, Marker } from "@react-google-maps/api";
-
-function Home() {
-  const URL = "https://api.openbrewerydb.org/v1/breweries";
-
+function Home({ data, setData }) {
+  console.log(data);
   return (
     <div className="container">
       <div className="search-container">
@@ -18,7 +14,21 @@ function Home() {
         <button className="searchBtn">Search</button>
       </div>
 
-      <div className="brewery-list"></div>
+      <div className="brewery-list">
+        <ul>
+          {data
+            ? data.map((item, id) => (
+                <div key={id} className="brewery">
+                  <li className="name">
+                    <strong>{item.name}</strong>
+                  </li>
+                  <li className="address">{item.address_1}</li>
+                  <button className="detailsBtn">View on Map</button>
+                </div>
+              ))
+            : null}
+        </ul>
+      </div>
     </div>
   );
 }

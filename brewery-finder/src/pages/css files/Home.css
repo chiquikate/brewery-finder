@@ -16,6 +16,7 @@ body {
   padding: 5px;
 
   background-color: #ffefcd;
+  border: 1px solid #ffefcd;
   font-size: 16px;
 }
 
@@ -23,14 +24,63 @@ body {
   margin-top: 0px;
   margin-left: 105px;
   width: 150px;
+  border-radius: 15px;
+}
+
+.searchBtn:hover {
+  background-color: #e09132;
+  border: 2px solid #ffefcd;
+  color: #ffefcd;
 }
 
 .brewery-list {
-  background-color: #e09132;
-
   margin: auto;
   width: 360px;
-  height: 50px;
   position: relative;
   top: -20px;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+.brewery {
+  background-color: #e09132;
+  width: 360px;
+  margin: auto;
+  margin-bottom: 5px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.name {
+  font-size: 18px;
+}
+
+.address {
+  margin: 5px 15px;
+  font-size: 14px;
+}
+
+.detailsBtn {
+  background-color: #ffefcd;
+  width: 120px;
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid #ffefcd;
+  border-radius: 15px;
+  font-size: 12px;
+
+  position: relative;
+  left: 100px;
+}
+
+.detailsBtn:hover {
+  background-color: #e09132;
+  border: 2px solid #ffefcd;
+  color: #ffefcd;
 }
