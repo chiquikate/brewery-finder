@@ -1,0 +1,92 @@
+body {
+  background-color: #a58e74;
+}
+
+.search-container {
+  width: 360px;
+  margin: 50px auto;
+
+  background-color: #e09132;
+}
+
+.user-input,
+.searchBtn {
+  width: 300px;
+  margin: 30px 30px 10px 30px;
+  padding: 5px;
+
+  background-color: #ffefcd;
+  border: 1px solid #ffefcd;
+  font-size: 16px;
+}
+
+.searchBtn {
+  margin-top: 0px;
+  margin-left: 105px;
+  width: 150px;
+  border-radius: 15px;
+}
+
+.searchBtn:hover {
+  background-color: #e09132;
+  border: 2px solid #ffefcd;
+  color: #ffefcd;
+}
+
+/* .brewery-list-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  gap: 20px;
+} */
+
+.brewery-list {
+  margin: auto;
+  width: 300px;
+  position: relative;
+  top: -20px;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+.card {
+  background-color: #e09132;
+  width: 300px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.name {
+  font-size: 18px;
+}
+
+.address {
+  margin: 5px 15px;
+  font-size: 14px;
+}
+
+.detailsBtn {
+  background-color: #ffefcd;
+  width: 120px;
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid #ffefcd;
+  border-radius: 15px;
+  font-size: 12px;
+
+  position: relative;
+  left: 70px;
+}
+
+.detailsBtn:hover {
+  background-color: #e09132;
+  border: 2px solid #ffefcd;
+  color: #ffefcd;
+}
