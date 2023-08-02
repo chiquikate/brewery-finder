@@ -17,11 +17,15 @@ import axios from "axios";
 
 function App() {
   const [data, setData] = useState([]);
+  const [filtered, setFiltered] = useState([]);
 
   useEffect(() => {
     axios
       .get("https://api.openbrewerydb.org/v1/breweries")
-      .then((res) => setData(res.data))
+      .then((res) => {
+        setData(res.data);
+        setFiltered(res.data);
+      })
       .catch((err) => console.log(err));
   }, []);
 
@@ -29,7 +33,12 @@ function App() {
     createRoutesFromElements(
       <>
         <Route element={<RootLayout />}>
-          <Route path="/" element={<Home data={data} setData={setData} />} />
+          <Route
+            path="/"
+            element={
+              <Home data={data} filtered={filtered} setFiltered={setFiltered} />
+            }
+          />
           <Route path="wishlist" element={<Wishlist />} />
         </Route>
         <Route path="/brewery-details" element={<BreweryDetails />} />

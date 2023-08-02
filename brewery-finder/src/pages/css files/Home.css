@@ -33,9 +33,16 @@ body {
   color: #ffefcd;
 }
 
+/* .brewery-list-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  gap: 20px;
+} */
+
 .brewery-list {
   margin: auto;
-  width: 360px;
+  width: 300px;
   position: relative;
   top: -20px;
 }
@@ -44,11 +51,10 @@ ul {
   padding-left: 0px;
 }
 
-.brewery {
+.card {
   background-color: #e09132;
-  width: 360px;
-  margin: auto;
-  margin-bottom: 5px;
+  width: 300px;
+  margin-bottom: 10px;
   padding: 20px;
   border-radius: 10px;
 }
@@ -76,7 +82,7 @@ li {
   font-size: 12px;
 
   position: relative;
-  left: 100px;
+  left: 70px;
 }
 
 .detailsBtn:hover {
