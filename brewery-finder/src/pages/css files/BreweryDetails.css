@@ -1,0 +1,44 @@
+.brewery-page-container {
+  width: 1000px;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.back-btn {
+  color: #ffefcd;
+
+  position: relative;
+  top: -40px;
+  left: 50px;
+}
+
+.indiv-details {
+  width: 400px;
+  padding: 20px;
+  border: 2px double #ffefcd;
+  background-color: #e09132;
+}
+
+.i-name {
+  font-size: 20px;
+}
+
+.fa-location-arrow,
+.fa-phone,
+.fa-laptop {
+  padding-right: 10px;
+}
+
+.i-address,
+.i-number,
+.i-website {
+  margin-left: 10px;
+}
+
+.i-address2 {
+  margin-left: 25px;
+}
+
+.brewery-type {
+  margin-left: 35px;
+}
