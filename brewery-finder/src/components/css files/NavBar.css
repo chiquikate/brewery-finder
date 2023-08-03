@@ -1,11 +1,12 @@
 .navbar-custom {
   background-color: #424530;
+  width: 100%;
 }
 
 .navlist-container {
   text-align: center;
   margin: auto;
-  gap: 10px;
+  gap: 70px;
 }
 
 .nav-button {
