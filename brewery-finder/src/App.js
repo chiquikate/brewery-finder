@@ -40,8 +40,8 @@ function App() {
             }
           />
           <Route path="wishlist" element={<Wishlist />} />
+          <Route path="/brewery-details/:id" element={<BreweryDetails />} />
         </Route>
-        <Route path="/brewery-details" element={<BreweryDetails />} />
       </>
     )
   );

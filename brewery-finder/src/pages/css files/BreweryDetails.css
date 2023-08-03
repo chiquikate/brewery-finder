@@ -1,0 +1,76 @@
+.brewery-page-container {
+  width: 1000px;
+  margin: auto;
+  margin-top: 80px;
+
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  width: 0px;
+}
+
+.back-btn {
+  color: #ffefcd;
+
+  position: relative;
+  top: -40px;
+  left: 50px;
+}
+
+.indiv-details {
+  width: 400px;
+  height: 350px;
+  padding: 20px;
+  border: 2px double #ffefcd;
+  background-color: #e09132;
+
+  position: relative;
+  top: 50px;
+}
+
+.i-name {
+  font-size: 20px;
+}
+
+.fa-location-arrow,
+.fa-phone,
+.fa-laptop {
+  padding-right: 10px;
+}
+
+.fa-thumbs-up,
+.fa-heart {
+  position: absolute;
+  left: 340px;
+  width: 30px;
+  height: 30px;
+}
+
+.i-address,
+.i-number,
+.i-website {
+  margin-left: 10px;
+}
+
+.i-address2 {
+  margin-left: 25px;
+}
+
+.brewery-type {
+  margin-left: 35px;
+}
+
+.google-maps-container {
+  width: 550px;
+  height: 500px;
+  margin-bottom: 150px;
+  position: relative;
+  top: 50px;
+}
+
+.google-maps {
+  width: 100%;
+  height: 500px;
+}
