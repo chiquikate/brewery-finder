@@ -99,10 +99,7 @@ function BreweryDetails({ setIsWishlist }) {
         </NavLink>
         <div className="indiv-details">
           {isLiked ? (
-            <FontAwesomeIcon
-              icon={faHeart}
-              style={{ color: "#ffefcd", display: "block" }}
-            />
+            <FontAwesomeIcon icon={faHeart} style={{ color: "#ffefcd" }} />
           ) : (
             <button className="wishlistBtn" onClick={setWishlist}>
               Add to Wishlist
@@ -118,9 +115,9 @@ function BreweryDetails({ setIsWishlist }) {
               style={{ color: "#ffefcd" }}
             />
             {data.address_1}
-            <div className="i-address2">
+            <span className="i-address2">
               {data.city}, {data.state}, {data.postal_code}, {data.country}
-            </div>
+            </span>
           </p>
           <p className="i-number">
             <FontAwesomeIcon icon={faPhone} style={{ color: "#ffefcd" }} />

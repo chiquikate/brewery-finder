@@ -1,5 +1,5 @@
+import Logo from "../assets/MIL.png";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 import "./css files/NavBar.css";
 
@@ -11,12 +11,12 @@ function NavBar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto navlist-container">
-              <Link to="/" className="nav-button">
+              <Nav.Link href="/" className="nav-button">
                 Home
-              </Link>
-              <Link to="/wishlist" className="nav-button">
+              </Nav.Link>
+              <Nav.Link href="/wishlist" className="nav-button">
                 Wishlist
-              </Link>
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

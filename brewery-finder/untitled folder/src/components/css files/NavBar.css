@@ -6,7 +6,7 @@
 .navlist-container {
   text-align: center;
   margin: auto;
-  gap: 100px;
+  gap: 70px;
 }
 
 .nav-button {
@@ -14,11 +14,14 @@
   margin-bottom: 20px;
 
   font-size: 20px;
-  text-decoration: none;
 }
 
 .nav-button:hover {
   color: #e09132;
   font-size: 22px;
   transition: 1000ms;
+}
+
+.nav-button:active {
+  color: #e09132;
 }
