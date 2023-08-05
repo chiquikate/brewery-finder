@@ -11,3 +11,9 @@ Version 1.1
 - Added individual page which shows details about the selected brewery.
 - Added brewery-mapping, which integrates Google Maps into the brewery details page
 - Improved initial design
+
+Version 1.2
+
+- Added wishlist page
+- Added wishlist functionality
+- Developed final design
