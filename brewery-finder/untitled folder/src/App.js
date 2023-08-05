@@ -41,17 +41,7 @@ function App() {
               <Home data={data} filtered={filtered} setFiltered={setFiltered} />
             }
           />
-          <Route
-            path="wishlist"
-            element={
-              <Wishlist
-                wishlist={wishlist}
-                setIsWishlist={setIsWishlist}
-                data={data}
-                setData={setData}
-              />
-            }
-          />
+          <Route path="wishlist" element={<Wishlist wishlist={wishlist} />} />
           <Route
             path="/brewery-details/:id"
             element={<BreweryDetails setIsWishlist={setIsWishlist} />}

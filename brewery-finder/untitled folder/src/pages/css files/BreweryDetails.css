@@ -65,6 +65,8 @@ a {
   left: 320px;
   width: 30px;
   height: 30px;
+
+  display: none;
 }
 
 .i-address,
